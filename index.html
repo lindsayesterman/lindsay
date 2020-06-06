@@ -114,6 +114,7 @@ p{
     line-height: 1.8;
     font-size: 1.5em;
     margin-bottom: 20px;
+    margin:10px;
 
 }
 
@@ -139,10 +140,6 @@ html{
 
     max-width: 1600px;
     background-color: #ffffff;
-    padding-top: 48px;
-    padding-right: 24px;
-    padding-bottom: 48px;
-    padding-left: 24px;
     height: 85%;
     width: 80%;
     margin: auto;
@@ -166,8 +163,41 @@ html{
 
 }
 
+/* MEDIA QUERY computer*/
+@media screen and (max-width:900px) and (min-width:450px) {
+.helloIntro > h2{
 
+    font-size: 2.1em;
+    left: 55%;
 
+}
+
+.container_projects{
+    
+    height: 100%;
+    width: 100%;
+
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+
+    height: 37%;
+    width: 30%;
+
+}
+
+}
+
+/* MEDIA QUERY phone*/
+@media screen and (max-width:449px) {
+.helloIntro > h2{
+
+    font-size: 2.5em;
+    left: 55%;
+
+}
+
+}
 
 
 </style>
