@@ -157,18 +157,115 @@ html{
     justify-content: space-around;
     flex-direction: row;
 
-
-
-
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6{
+
+.hbbl, .dct, .projects, .box4, .box5, .box6{
 
     background-color: #dddddd;
     height: 240px;
     width: 300px;
 
 }
+
+.hbbl{
+ position: relative;
+ float: left;
+
+}
+
+.hbbl div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+  
+}
+
+.hbbl:hover{
+ cursor: pointer;
+}
+
+.hbbl:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+
+.dct{
+ position: relative;
+ float: left;
+
+}
+
+.dct div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+  
+}
+
+.dct:hover{
+ cursor: pointer;
+}
+
+.dct:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
+
+.projects{
+ position: relative;
+ float: left;
+
+}
+
+.projects div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+  
+}
+
+.projects:hover{
+ cursor: pointer;
+}
+
+.projects:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
 
 
 
@@ -188,7 +285,7 @@ html{
 
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6{
+.hbbl, .dct, .projects, .box4, .box5, .box6{
 
     height: 200px;
     width: 225px;
@@ -203,7 +300,8 @@ html{
 .helloIntro > h2{
 
     font-size: 2.1em;
-    left: 59.5%;
+    left: 60%;
+    top: 47%;
 
 }
 
@@ -213,6 +311,7 @@ html{
     width: 100%;
 
 }
+
 }
 
 
@@ -259,12 +358,30 @@ html{
 <p class="about_me">High school student at Spanish River with a deep interest in computer science and psychology. Check out my <a href="https://github.com/lindsayesterman"target="_blank">github</a>!</p>
 
 <div class="container_projects">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTyl4KUS6W2VnCqS8seVl7Pcg7KDSo1ciyRiyUSI_uQPZewLwp&usqp=CAU"class="box1"></a>
-    <img type="image/png" src="img/dct-final-logo.png" class="box2">
-    <div class="box3">3</div>
+
+<div class="hbbl">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTyl4KUS6W2VnCqS8seVl7Pcg7KDSo1ciyRiyUSI_uQPZewLwp&usqp=CAU" class="hbbl">
+    <div>Human Brain and Behavior Lab</div>
+</div>
+    
+    <div class="dct">
+    <img type="image/png" src="img/dct-final-logo.png" class="dct">
+<div>Daily College Tip</div>
+</div>
+
+
+<div class="projects">    
+    <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg" class="projects">
+    <div>Projects</div>
+</div>
+
+    
     <div class="box4">4</div>
+    
     <div class="box5">5</div>
+   
     <div class="box6">6</div>
+
 </div>
 
 
