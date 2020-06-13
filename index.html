@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -7,343 +8,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+
+<title>Lindsay Esterman</title>
+
+
+<link rel="stylesheet" type="text/css" href="style.css"> 
+
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 
-<style>
-
-.helloIntro > h2{
-	font-size: 2em;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: bold;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 53%;
-    margin-top: -50px;
-    margin-left: -100px;
-}
-
-.container-intro {
-
-	position: absolute;
-    z-index: 10;
-    top: 55%;
-    width: 200px;
-    height: 80px;
-    left: 50%;
-    margin-top: -45px;
-    margin-left: -100px;
-
-
-}
-
-.github  {
-
-    text-decoration: none;
-	font-size: 16px;
-	font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #A9A9A9;
-    text-align: center;
-    display: inline-block;
-    margin-left: 5%;
-}
-
-.portfolio{
-
-    text-decoration: none;
-	font-size: 16px;
-	font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #A9A9A9;
-    text-align: center;
-    display: inline-block;
-    margin-left: 5%;
-}
-
-body{
-
-    margin:0;
-    padding:0;
-    height: 100vh;
-
-}
-
-#particles-js{
-    height: 100%;
-    background: #eaf1f8;
-}
-
-.container-intro a:hover {
-
-    color: #383838; 
-    text-decoration: : none; 
-    font-weight: none 
-}
-
-.triangle-down {
-    width: 0;
-    height: 0;
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    border-top: 18px solid #555;
-    position: relative;
-    top: 360%;
-    left: 6%;
-    margin-top: -50px;
-    margin-left: -100px;
-
-}
-
-
-h4{
-
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 2.3em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    margin-top: 55px;
-
-}
-p{
-
-    font-family: "Lora", serif;
-    color: #858585;
-    text-align: center;
-    line-height: 1.8;
-    font-size: 1.5em;
-    margin:10px;
-    margin-bottom: 40px;
-
-
-
-
-}
-
-.about_me > a{
-
-    text-decoration: none;
-    color: #2C3E50;
-    font-family: "Lora", serif;
-    background-color: transparent;
-
-}
-
-.about_me a:hover{
-     background-color: #F8F8F8;
-}
-
-html{
-    scroll-behavior: smooth
-}
-
-
-.container-projects {
-
-    max-width: 1600px;
-    background-color: #ffffff;
-    height: 430px;
-    width: 80%;
-    margin-top: 50px;
-    margin:auto;
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-
-}
-
-
-.hbbl, .dct, .projects{
-
-    background-color: #dddddd;
-    height: 280px;
-    width: 280px;
-
-}
-
-.hbbl{
- position: relative;
- float: left;
-
-}
-
-.hbbl div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
-}
-
-.hbbl:hover{
- cursor: pointer;
-}
-
-.hbbl:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
-}
-
-
-.dct{
- position: relative;
- float: left;
-
-}
-
-.dct div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
-}
-
-.dct:hover{
- cursor: pointer;
-}
-
-.dct:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
-}
-
-
-.projects{
- position: relative;
- float: left;
- margin-bottom:15px;
-
-}
-
-.projects div{
- position: absolute;
- bottom: 0;
- right: 0;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-family: sans-serif;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
-  
-}
-
-.projects:hover{
- cursor: pointer;
-}
-
-.projects:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7; 
-}
-
-
-
-
-/* MEDIA QUERY computer*/
-@media screen and (max-width:1100px) and (min-width:0px) {
-.helloIntro > h2{
-
-    font-size: 2.1em;
-    left: 55%;
-
-}
-
-.container-projects{
-    
-    height: 570px;
-    width: 90%;
-
-}
-
-.hbbl, .dct, .projects{
-
-    height: 253px;
-    width: 253px;
-
-}
-
-}
-
-
-@media screen and (max-width:564px) {
-
-
-.container-projects{
-    
-    height: 852px;
-    width: 100%;
-
-}}
-
-
-
-/* MEDIA QUERY phone*/
-@media screen and (max-width:449px) {
-
-.helloIntro > h2{
-
-    font-size: 2.1em;
-    left: 60%;
-    top: 47%;
-
-}
-
-.container-projects{
-    
-    height: 850px;
-    width: 100%;
-
-}
-
-.hbbl, .dct, .projects{
-
-    height: 260px;
-    width: 260px;
-
-}
-
-}
-
-
-</style>
-
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
 <script type="text/javascript" src="css3-mediaqueries.js"></script>
-
-
-<title>Lindsay Esterman</title>
-
 
 </head>
 
@@ -361,7 +39,7 @@ html{
 
 
 
-<div class="helloIntro">
+<div class="hello-intro">
     <h2>HELLO</h2>
 </div>
 <div class = "container-intro">
@@ -381,23 +59,33 @@ html{
 <div class="container-projects">
 
 <div class="hbbl">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTyl4KUS6W2VnCqS8seVl7Pcg7KDSo1ciyRiyUSI_uQPZewLwp&usqp=CAU" class="hbbl">
-    <div>Human Brain and Behavior Lab</div>
+    <a href="hbbl.html">
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRTyl4KUS6W2VnCqS8seVl7Pcg7KDSo1ciyRiyUSI_uQPZewLwp&usqp=CAU" class="hbbl">
+    <div>Human Brain and Behavior Lab</div></a>
 </div>
     
     <div class="dct">
+    <a href="dct.html">
     <img type="image/png" src="img/dct-final-logo.png" class="dct">
-<div>Daily College Tip</div>
+<div>Daily College Tip</div></a>
 </div>
 
 
-<div class="projects">    
+<div class="projects"> 
+    <a href="projects.html">   
     <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg" class="projects">
-    <div>Projects</div>
+    <div>Projects</div></a>
 </div>
 </div>
 
 
+<footer>
+<div class="le">
+    
+     @ Lindsay Esterman
+
+</div>
+</footer>
 
 
 </body>
