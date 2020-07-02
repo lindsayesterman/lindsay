@@ -58,7 +58,7 @@ body {
 
 .particles-js-canvas-el{
 
-position:absolute;
+    position:absolute;
 
 }
 
@@ -181,6 +181,10 @@ html {
     width: 280px;
     position: relative;
     float: left;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+
 }
 
 
@@ -277,20 +281,13 @@ footer {
 
 }
 
-.projects-iphone- > hr{
-
-width:60%;
-background-color: black;
-
-}
-
-
 .projects-iphone > hr{
 
-width:60%;
-background-color: black;
+    width:60%;
+    background-color: black;
 
 }
+
 
 /* MEDIA QUERY computer*/
 @media screen and (max-width:1100px) and (min-width:0px) {
