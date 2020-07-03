@@ -175,7 +175,7 @@ html {
 
 /* Image hovering displaying name*/
 
-.hbbl, .dct, .projects {
+.mini-projects, .dct, .nasa {
     background-color: #dddddd;
     height: 280px;
     width: 280px;
@@ -188,7 +188,7 @@ html {
 }
 
 
-.hbbl div, .dct div, .projects div {
+.mini-projects div, .dct div, .nasa div {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -202,11 +202,11 @@ html {
     transition: visibility 0s, opacity 0.5s linear;
 }
 
-.hbbl:hover, .dct:hover, .projects:hover {
+.mini-projects:hover, .dct:hover, .nasa:hover {
     cursor: pointer;
 }
 
-.hbbl:hover div, .dct:hover div, .projects:hover div {
+.mini-projects:hover div, .dct:hover div, .nasa:hover div {
     width: 150px;
     padding: 8px 15px;
     visibility: visible;
@@ -288,6 +288,11 @@ footer {
 
 }
 
+.mini-proj{
+    display:block;
+    margin:0 auto;
+}
+
 
 /* MEDIA QUERY computer*/
 @media screen and (max-width:1100px) and (min-width:0px) {
@@ -300,7 +305,7 @@ footer {
         width: 90%;
     }
 
-    .hbbl, .dct, .projects {
+    .mini-projects, .dct, .nasa  {
         height: 253px;
         width: 253px;
     }
@@ -326,7 +331,7 @@ footer {
         width: 100%;
     }
 
-    .hbbl, .dct, .projects {
+    .mini-projects, .dct, .nasa  {
         height: 260px;
         width: 260px;
     }
