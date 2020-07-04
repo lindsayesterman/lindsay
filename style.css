@@ -289,6 +289,7 @@ footer {
 }
 
 .back-btn{
+    position:fixed;
     margin-top:2%;
     margin-left:2%;
     width:57px;
@@ -363,6 +364,7 @@ footer {
     .nasa-flex{
         transform: scale(.67)
     }
+
     .graph{
         width:90%;
     }
