@@ -106,7 +106,7 @@ h3{
     color: #858585;
     text-align: center;
     display: block;
-    line-height: .4;
+    line-height: 1.3;
     margin: 0 auto;
     width:60%;
     font-weight:500;
@@ -275,11 +275,15 @@ footer {
     background-color: #F8F8F8;
 }
 
-.center{
-    display:inline-block;
-    margin-left:28%;
 
+
+.nasa-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transform: scale(.67)
 }
+
 
 .projects-iphone > hr{
 
@@ -289,9 +293,9 @@ footer {
 }
 
 .mini-proj{
-    display:block;
-    margin:0 auto;
+    width:100%;
 }
+
 
 
 /* MEDIA QUERY computer*/
@@ -337,4 +341,16 @@ footer {
     }
 
 
+    .projects-iphone > h1 {
+        font-size:1.5em;
+    }
+
+    .projects-p{
+
+        width:100%;
+        font-size: .9em;
+
+    }
+
+    
 }
