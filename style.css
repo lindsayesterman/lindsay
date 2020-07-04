@@ -46,8 +46,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    -webkit-overflow-scrolling: touch;
-
 }
 
 #particles-js {
@@ -156,9 +154,6 @@ ol li a:hover {
     background-color: #F8F8F8;
 }
 
-html {
-    scroll-behavior: smooth
-}
 
 .container-projects {
     max-width: 1600px;
@@ -296,8 +291,8 @@ footer {
 .back-btn{
     margin-top:2%;
     margin-left:2%;
-    width:40px;
-    height:40px;
+    width:57px;
+    height:36px;
 }
 
 
