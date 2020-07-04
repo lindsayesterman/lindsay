@@ -263,7 +263,7 @@ footer {
 
 .projects-links {
     text-decoration: none;
-    color: gray;
+    color:#51A0D5;
     font-family: "Lora", serif;
     background-color: transparent;
 }
@@ -320,6 +320,11 @@ footer {
         width: 100%;
     }
 
+    .mini-proj{
+        width:100%;
+    }
+
+
 }
 
 /* MEDIA QUERY phone*/
@@ -358,7 +363,9 @@ footer {
     .nasa-flex{
         transform: scale(.67)
     }
-
+    .graph{
+        width:90%;
+    }
 
 
     
