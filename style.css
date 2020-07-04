@@ -172,7 +172,7 @@ ol li a:hover {
 
 /* Image hovering displaying name*/
 
-.mini-projects, .dct, .nasa {
+ .dct, .nasa, .mini-projects {
     background-color: #dddddd;
     height: 280px;
     width: 280px;
@@ -307,7 +307,7 @@ footer {
         width: 90%;
     }
 
-    .mini-projects, .dct, .nasa  {
+     .dct, .nasa, .mini-projects {
         height: 253px;
         width: 253px;
     }
@@ -338,7 +338,7 @@ footer {
         width: 100%;
     }
 
-    .mini-projects, .dct, .nasa  {
+    .dct, .nasa, .mini-projects {
         height: 260px;
         width: 260px;
     }
