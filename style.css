@@ -46,6 +46,8 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    -webkit-overflow-scrolling: touch;
+
 }
 
 #particles-js {
@@ -291,6 +293,12 @@ footer {
 
 }
 
+.back-btn{
+    margin-top:2%;
+    margin-left:2%;
+    width:40px;
+    height:40px;
+}
 
 
 /* MEDIA QUERY computer*/
