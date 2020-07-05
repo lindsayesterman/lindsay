@@ -201,6 +201,7 @@ ol li a:hover {
 
 .mini-projects:hover, .dct:hover, .nasa:hover {
     cursor: pointer;
+    transform:scale(1.05);
 }
 
 .mini-projects:hover div, .dct:hover div, .nasa:hover div {
