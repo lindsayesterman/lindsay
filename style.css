@@ -2,12 +2,9 @@
 
     position: absolute;
     top: 50%;
-    height: 80px;
     left: 50%;
-    margin-top: -50px;
     text-align: center;
-    width:100px;
-    margin-left:-50px;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -156,7 +153,6 @@ ol li a:hover {
 
 
 .container-projects {
-    max-width: 1600px;
     background-color: #ffffff;
     height: 300px;
     width: 80%;
@@ -173,7 +169,6 @@ ol li a:hover {
 /* Image hovering displaying name*/
 
  .dct, .nasa, .mini-projects {
-    background-color: #dddddd;
     height: 280px;
     width: 280px;
     position: relative;
@@ -181,7 +176,6 @@ ol li a:hover {
     -webkit-box-shadow: 4px 5px 6px 0px rgba(97,91,97,1);
     -moz-box-shadow: 4px 5px 6px 0px rgba(97,91,97,1);
     box-shadow: 4px 5px 6px 0px rgba(97,91,97,1);
-
 }
 
 
