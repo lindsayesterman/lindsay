@@ -1,11 +1,11 @@
 .container-intro{
-
+    
     position: absolute;
     top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-
+    
 }
 
 
@@ -13,18 +13,18 @@
     font-size: 2em;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-
+    
 }
 
 ul{
-
+    
     list-style: none;
     display:flex;
     flex-direction: row;
     padding-left: 0;
     justify-content: center;
-
-
+    
+    
 }
 
 
@@ -54,9 +54,9 @@ body {
 }
 
 .particles-js-canvas-el{
-
+    
     position:absolute;
-
+    
 }
 
 
@@ -124,7 +124,7 @@ ol {
     flex-direction: row;
     padding-left: 0;
     justify-content: center;
-
+    
 }
 
 ol li a {
@@ -133,7 +133,7 @@ ol li a {
     font-family: "Lora", serif;
     background-color: transparent;
     margin-right:15px;
-
+    
 }
 
 ol li a:hover {
@@ -154,7 +154,7 @@ ol li a:hover {
 
 .container-projects {
     background-color: #ffffff;
-    height: 300px;
+    height: 640px;
     width: 80%;
     margin-top: 50px;
     margin: auto;
@@ -168,7 +168,7 @@ ol li a:hover {
 
 /* Image hovering displaying name*/
 
- .dct, .nasa, .mini-projects {
+.dct, .nasa, .mini-projects {
     height: 280px;
     width: 280px;
     position: relative;
@@ -277,10 +277,10 @@ footer {
 
 
 .projects-iphone > hr{
-
+    
     width:60%;
     background-color: black;
-
+    
 }
 
 .back-btn{
@@ -297,73 +297,78 @@ footer {
     .hello-intro > h2 {
         font-size: 2.1em;
     }
-
+    
     .container-projects {
-        height: 400px;
         width: 90%;
     }
-
-     .dct, .nasa, .mini-projects {
+    
+    .dct, .nasa, .mini-projects {
         height: 253px;
         width: 253px;
     }
-
+    
 }
 
-@media screen and (min-width:400px) and (max-width:850px) {
+@media screen and (min-width:550px) and (max-width:850px) {
     .container-projects {
-        height: 780px;
-        width: 100%;
+        height: 600px;
+        width: 80%;
     }
-
+    
     .mini-proj{
         width:100%;
     }
-
-
 }
+
+@media screen and (min-width:0px) and (max-width:630px) {
+    .container-projects{
+        height:1250px;
+    }
+}
+
+
 
 /* MEDIA QUERY phone*/
 @media screen and (max-width:449px) {
     .hello-intro > h2 {
         font-size: 2.1em;
     }
-
+    
     .container-projects {
-        height: 850px;
+        height: 1250px;
         width: 100%;
     }
-
+    
     .dct, .nasa, .mini-projects {
         height: 260px;
         width: 260px;
     }
-
-
+    
+    
     .projects-iphone > h1 {
         font-size:1.5em;
     }
-
+    
     .projects-p{
-
+        
         width:100%;
         font-size: .9em;
-
+        
     }
-
+    
     .mini-proj{
         width:100%;
     }
-
-
+    
+    
     .nasa-flex{
         transform: scale(.67)
     }
-
+    
     .graph{
         width:90%;
     }
-
-
+    
+    
     
 }
