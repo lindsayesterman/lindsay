@@ -127,17 +127,12 @@ ol {
     
 }
 
-ol li a {
+ol li a img {
     text-decoration: none;
     color: #2C3E50;
     font-family: "Lora", serif;
-    background-color: transparent;
     margin-right:15px;
-    
-}
-
-ol li a:hover {
-    background-color: #F8F8F8;
+    width:20px;
 }
 
 .about_me > a {
@@ -148,7 +143,7 @@ ol li a:hover {
 }
 
 .about_me a:hover {
-    background-color: #F8F8F8;
+    color:#333;
 }
 
 
@@ -236,6 +231,12 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position:relative;
+    animation: phone;
+    animation-delay:.2s;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    opacity:0;
 }
 
 .projects-iphone > h1 {
@@ -243,6 +244,10 @@ footer {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     text-align: center;
+    position:relative;
+    animation: title;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
 }
 
 .projects-p > p {
@@ -254,6 +259,25 @@ footer {
     margin-bottom: 50px;
     width: 60%;
     margin: 0 auto;
+    position:relative;
+    animation:para;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes title {
+    0% {top: -50px;}
+    100% {top: 5px;}
+}
+
+@keyframes phone{
+    0% {opacity:0;}
+    100% {opacity: 1;}
+}
+
+@keyframes para{
+    0% {left:-1000px;}
+    100% {left: 0px;}
 }
 
 .projects-links {
@@ -267,19 +291,17 @@ footer {
     background-color: #F8F8F8;
 }
 
-
-
 .nasa-flex{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-
 .projects-iphone > hr{
     
     width:60%;
     background-color: black;
+    margin-bottom:20px;
     
 }
 
@@ -290,6 +312,7 @@ footer {
     width:57px;
     height:36px;
 }
+
 
 
 
