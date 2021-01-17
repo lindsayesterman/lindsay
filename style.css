@@ -229,8 +229,7 @@ footer {
 
 .projects-iphone > img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
     position:relative;
     animation: phone;
     animation-delay:.2s;
