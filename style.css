@@ -1,400 +1,393 @@
-.container-intro{
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    
+.container-intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
-
 
 .hello-intro > h2 {
-    font-size: 2em;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
-ul{
-    
-    list-style: none;
-    display:flex;
-    flex-direction: row;
-    padding-left: 0;
-    justify-content: center;
-    
-    
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  justify-content: center;
 }
 
-
-.github, .portfolio {
-    text-decoration: none;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #A9A9A9;
-    text-align: center;
-    margin:6px;
+.github,
+.portfolio {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #a9a9a9;
+  text-align: center;
+  margin: 6px;
 }
-
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 #particles-js {
-    height: 100%;
-    background: #eaf1f8;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+  height: 100%;
+  background: #eaf1f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.particles-js-canvas-el{
-    
-    position:absolute;
-    
+.particles-js-canvas-el {
+  position: absolute;
 }
-
 
 .container-intro a:hover {
-    color: #383838;
-    text-decoration: :none;
-    font-weight: none
+  color: #383838;
+  text-decoration: none;
+  font-weight: none;
 }
 
 .scroll_down {
-    text-align: center;
-    width:100px;
-    margin-left:-50px;
-    position: absolute;
-    bottom:20px;
-    left:50%;
+  text-align: center;
+  width: 100px;
+  margin-left: -50px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
 }
-
 
 h1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 2.3em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    margin-top: 45px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.3em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  margin-top: 45px;
 }
 
-p{
-    font-family: "Lora", serif;
-    color: #858585;
-    text-align: center;
-    line-height: 1.8;
-    font-size: 1.5em;
-    display: block;
-    margin: 0 auto;
-    width:60%;
-    margin-bottom: 25px;
-    font-weight:500;
+p {
+  font-family: "Lora", serif;
+  color: #858585;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.5em;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 25px;
+  font-weight: 500;
 }
 
-h3{
-    font-family: "Lora", serif;
-    color: #858585;
-    text-align: center;
-    display: block;
-    line-height: 1.3;
-    margin: 0 auto;
-    width:60%;
-    font-weight:500;
-    font-size: 1.4em;
-    margin-bottom: 1px;
+h3 {
+  font-family: "Lora", serif;
+  color: #858585;
+  text-align: center;
+  display: block;
+  line-height: 1.3;
+  margin: 0 auto;
+  width: 60%;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 1px;
 }
-
 
 ol {
-    font-family: "Lora", serif;
-    color: #858585;
-    line-height: 1.8;
-    font-size: 1.2em;
-    list-style:none;
-    margin-bottom: 30px;
-    list-style-position: inside;
-    display:flex;
-    flex-direction: row;
-    padding-left: 0;
-    justify-content: center;
-    
+  font-family: "Lora", serif;
+  color: #858585;
+  line-height: 1.8;
+  font-size: 1.2em;
+  list-style: none;
+  margin-bottom: 30px;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  justify-content: center;
 }
 
 ol li a img {
-    text-decoration: none;
-    color: #2C3E50;
-    font-family: "Lora", serif;
-    margin-right:15px;
-    width:20px;
+  text-decoration: none;
+  color: #2c3e50;
+  font-family: "Lora", serif;
+  margin-right: 15px;
+  width: 20px;
 }
 
 .about_me > a {
-    text-decoration: none;
-    color: #2C3E50;
-    font-family: "Lora", serif;
-    background-color: transparent;
+  text-decoration: none;
+  color: #2c3e50;
+  font-family: "Lora", serif;
+  background-color: transparent;
 }
 
 .about_me a:hover {
-    color:#333;
+  color: #333;
 }
-
 
 .container-projects {
-    background-color: #ffffff;
-    height: 640px;
-    width: 75%;
-    margin-top: 50px;
-    margin: auto;
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+  background-color: #ffffff;
+  height: 640px;
+  width: 75%;
+  margin-top: 50px;
+  margin: auto;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
 }
-
 
 /* Image hovering displaying name*/
 
-.dct, .nasa, .mini-projects {
-    height: 280px;
-    width: 280px;
-    position: relative;
-    float: left;
+.dct,
+.nasa,
+.mini-projects {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  float: left;
   -webkit-box-shadow: 4px 5px 6px 0px rgba(168, 168, 168);
-    -moz-box-shadow: 4px 5px 6px 0px rgb(168, 168, 168);
-    box-shadow: 4px 5px 6px 0px rgba(168, 168, 168);
+  -moz-box-shadow: 4px 5px 6px 0px rgb(168, 168, 168);
+  box-shadow: 4px 5px 6px 0px rgba(168, 168, 168);
 }
 
-
-.mini-projects div, .dct div, .nasa div {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: black;
-    color: white;
-    margin-bottom: 5px;
-    font-family: sans-serif;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
+.mini-projects div,
+.dct div,
+.nasa div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
-.mini-projects:hover, .dct:hover, .nasa:hover {
-    cursor: pointer;
-    transform:scale(1.05);
+.mini-projects:hover,
+.dct:hover,
+.nasa:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
-.mini-projects:hover div, .dct:hover div, .nasa:hover div {
-    width: 150px;
-    padding: 8px 15px;
-    visibility: visible;
-    opacity: 0.7;
+.mini-projects:hover div,
+.dct:hover div,
+.nasa:hover div {
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
 }
 
 
 footer {
-    margin-top: 50px;
-    border-top: #d9d9d9 solid 1px;
-    height: 120px;
-    background-color: white;
-    color: #4d4d4d;
-    width: 100%;
+  margin-top: 50px;
+  border-top: #d9d9d9 solid 1px;
+  height: 120px;
+  background-color: white;
+  color: #4d4d4d;
+  width: 100%;
 }
 
 .le {
-    padding-top: 15px;
-    text-align: center;
-    font-size: 1em;
-    margin-top: 30px;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
-.graph { 
-    display: block;
-    margin: 0 auto;
-    width:60%;
-    margin-top:20px;
-    margin-bottom:70px;
+.graph {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 70px;
 }
 
 .projects-iphone > img {
-    display: block;
-    margin: 0px auto;
-    position:relative;
-    animation: phone;
-    animation-delay:.2s;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
-    opacity:0;
+  display: block;
+  margin: 0px auto;
+  position: relative;
+  animation: phone;
+  animation-delay: 0.2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .projects-iphone > h1 {
-    font-size: 2em;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    position:relative;
-    animation: title;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  animation: title;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .projects-p > p {
-    text-align: left;
-    font-family: "Lora", serif;
-    font-size: 1.1em;
-    line-height: 1.5;
-    color: black;
-    margin-bottom: 50px;
-    width: 60%;
-    margin: 0 auto;
-    position:relative;
-    animation:para;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
+  text-align: left;
+  font-family: "Lora", serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 50px;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  animation: para;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes title {
-    0% {top: -50px;}
-    100% {top: 5px;}
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 5px;
+  }
 }
 
-@keyframes phone{
-    0% {opacity:0;}
-    100% {opacity: 1;}
+@keyframes phone {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes para{
-    0% {left:-1000px;}
-    100% {left: 0px;}
+@keyframes para {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
 }
 
 .projects-links {
-    text-decoration: none;
-    color:#51A0D5;
-    font-family: "Lora", serif;
-    background-color: transparent;
+  text-decoration: none;
+  color: #51a0d5;
+  font-family: "Lora", serif;
+  background-color: transparent;
 }
 
 .projects-p a:hover {
-    background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
-.nasa-flex{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+.nasa-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.projects-iphone > hr{
-    
-    width:60%;
-    background-color: black;
-    margin-bottom:20px;
-    
+.projects-iphone > hr {
+  width: 60%;
+  background-color: black;
+  margin-bottom: 20px;
 }
 
-.back-btn{
-    position:fixed;
-    margin-top:2%;
-    margin-left:2%;
-    width:57px;
-    height:36px;
+.back-btn {
+  position: fixed;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 57px;
+  height: 36px;
 }
-
-
-
 
 /* MEDIA QUERY computer*/
-@media screen and (max-width:1100px) and (min-width:0px) {
-    .hello-intro > h2 {
-        font-size: 2.1em;
-    }
-    
-    .container-projects {
-        width: 90%;
-    }
-    
-    .dct, .nasa, .mini-projects {
-        height: 253px;
-        width: 253px;
-    }
-    
+@media screen and (max-width: 1100px) and (min-width: 0px) {
+  .hello-intro > h2 {
+    font-size: 2.1em;
+  }
+
+  .container-projects {
+    width: 90%;
+  }
+
+  .dct,
+  .nasa,
+  .mini-projects {
+    height: 253px;
+    width: 253px;
+  }
 }
 
-@media screen and (min-width:550px) and (max-width:850px) {
-    .container-projects {
-        height: 900px;
-        width: 80%;
-    }
-    
-    .mini-proj{
-        width:100%;
-    }
+@media screen and (min-width: 550px) and (max-width: 850px) {
+  .container-projects {
+    height: 900px;
+    width: 80%;
+  }
+
+  .mini-proj {
+    width: 100%;
+  }
 }
 
-@media screen and (min-width:0px) and (max-width:630px) {
-    .container-projects{
-        height:1700px;
-    }
+@media screen and (min-width: 0px) and (max-width: 630px) {
+  .container-projects {
+    height: 1700px;
+  }
 }
-
-
 
 /* MEDIA QUERY phone*/
-@media screen and (max-width:449px) {
-    .hello-intro > h2 {
-        font-size: 2.1em;
-    }
-    
-    .container-projects {
-        height: 1850px;
-        width: 100%;
-    }
-    
-    .dct, .nasa, .mini-projects {
-        height: 260px;
-        width: 260px;
-    }
-    p{
-        line-height: 1.4;
-        width:70%;
-    }
-    
-    .projects-iphone > h1 {
-        font-size:1.5em;
-    }
-    
-    .projects-p{
-        
-        width:100%;
-        font-size: .9em;
-        
-    }
-    
-    .mini-proj{
-        width:100%;
-    }
-    
-    
-    .nasa-flex{
-        transform: scale(.67)
-    }
-    
-    .graph{
-        width:90%;
-    }
-    
-    
-    
+@media screen and (max-width: 449px) {
+  .hello-intro > h2 {
+    font-size: 2.1em;
+  }
+
+  .container-projects {
+    height: 1850px;
+    width: 100%;
+  }
+
+  .dct,
+  .nasa,
+  .mini-projects {
+    height: 260px;
+    width: 260px;
+  }
+  p {
+    line-height: 1.4;
+    width: 70%;
+  }
+
+  .projects-iphone > h1 {
+    font-size: 1.5em;
+  }
+
+  .projects-p {
+    width: 100%;
+    font-size: 0.9em;
+  }
+
+  .mini-proj {
+    width: 100%;
+  }
+
+  .nasa-flex {
+    transform: scale(0.67);
+  }
+
+  .graph {
+    width: 90%;
+  }
 }
