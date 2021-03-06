@@ -4,6 +4,8 @@
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+  height:130px;
+  width:150px;
 }
 
 .hello-intro > h2 {
@@ -26,7 +28,7 @@ ul {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  color: #a9a9a9;
+  color: #585858;
   text-align: center;
   margin: 6px;
 }
@@ -50,7 +52,7 @@ body {
 }
 
 .container-intro a:hover {
-  color: #383838;
+  color: black;
   text-decoration: none;
   font-weight: none;
 }
@@ -62,6 +64,11 @@ body {
   position: absolute;
   bottom: 20px;
   left: 50%;
+  fill:#686868;
+}
+
+.scroll_down:hover {
+  transform:scale(1.1);
 }
 
 h1 {
@@ -117,8 +124,7 @@ ol li a img {
   text-decoration: none;
   color: #2c3e50;
   font-family: "Lora", serif;
-  margin-right: 15px;
-  width: 20px;
+  width: 40px;
 }
 
 .about_me > a {
@@ -133,7 +139,7 @@ ol li a img {
 }
 
 .container-projects {
-  background-color: #ffffff;
+  background-color: white;
   height: 640px;
   width: 75%;
   margin-top: 50px;
@@ -190,7 +196,6 @@ ol li a img {
   visibility: visible;
   opacity: 0.7;
 }
-
 
 footer {
   margin-top: 50px;
@@ -311,6 +316,7 @@ footer {
   margin-left: 2%;
   width: 57px;
   height: 36px;
+  z-index:999;
 }
 
 /* MEDIA QUERY computer*/
