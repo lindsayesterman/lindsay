@@ -5,7 +5,7 @@
   text-align: center;
   transform: translate(-50%, -50%);
   height:130px;
-  width:150px;
+  width:250px;
 }
 
 .hello-intro > h2 {
@@ -82,14 +82,15 @@ h1 {
 
 p {
   font-family: "Lora", serif;
-  color: #858585;
+  /* color: #858585; */
+  color:#000000c9;
   text-align: center;
   line-height: 1.8;
   font-size: 1.5em;
   display: block;
-  margin: 0 auto;
   width: 60%;
-  margin-bottom: 25px;
+  margin:0 auto;
+  margin: 55px auto 25px auto;
   font-weight: 500;
 }
 
@@ -129,13 +130,16 @@ ol li a img {
 
 .about_me > a {
   text-decoration: none;
-  color: #2c3e50;
   font-family: "Lora", serif;
   background-color: transparent;
 }
 
+a{
+  color: #51a0d5;
+}
+
 .about_me a:hover {
-  color: #333;
+  color:#3c77b3;
 }
 
 .container-projects {
@@ -289,7 +293,6 @@ footer {
 
 .projects-links {
   text-decoration: none;
-  color: #51a0d5;
   font-family: "Lora", serif;
   background-color: transparent;
 }
