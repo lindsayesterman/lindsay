@@ -164,9 +164,6 @@ a{
   width: 280px;
   position: relative;
   float: left;
-  /* -webkit-box-shadow: 4px 5px 6px 0px rgba(168, 168, 168);
-  -moz-box-shadow: 4px 5px 6px 0px rgb(168, 168, 168);
-  box-shadow: 4px 5px 6px 0px rgba(168, 168, 168); */
 }
 
 .mini-projects div,
@@ -262,6 +259,10 @@ footer {
   animation: para;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+.projects-p {
+  padding-bottom: 100px;
 }
 
 @keyframes title {
