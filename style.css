@@ -258,7 +258,7 @@ footer {
   width: 60%;
   margin: 0 auto;
   position: relative;
-  animation: para;
+  animation: phone;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
